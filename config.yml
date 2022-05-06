@@ -145,8 +145,8 @@ params:
   categories:
     - name: Cloud Infrastructure (Sydney)
       description: Cloud Infrastructure in Equinix Sydney
-      closed: true
     - name: Fleet Infrastructure
+      closed: true
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -327,7 +327,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "white"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
@@ -356,7 +356,7 @@ params:
   #
   # Default: `white`
   # STRING; `white`, `black`, or nothing
-  headerTextColor: white
+  headerTextColor: black
 
   # Google Analytics tracking code
   #

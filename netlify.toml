@@ -16,7 +16,12 @@
 [context.branch-deploy]
     command = "hugo -b $DEPLOY_PRIME_URL"
 
-[headers]
-    for = "/*.json", "/*.xml"
+[[headers]]
+    for = "/*.xml"
+    [headers.values] 
+      Access-Control-Allow-Origin = "*"
+
+[[headers]]
+    for = "/*.json"
     [headers.values] 
       Access-Control-Allow-Origin = "*"

@@ -2,11 +2,11 @@
 section: issue
 title: Scheduled maintenance
 date: 2025-03-19T00:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-03-19T03:09:00.000Z
+resolvedWhen: 2025-03-19T13:01:00.000Z
 affected:
   - Dashboard
   - API & HTTP
@@ -14,6 +14,8 @@ affected:
   - Hub Remote Access
 severity: disrupted
 ---
+Maintenance complete.
+
 *Update* Currently performing final review of updated components before closing the maintenance window.
 
 *Update* Update continues smoothly.

@@ -9,6 +9,9 @@ pin: false
 resolvedWhen: 2025-03-19T03:09:00.000Z
 affected:
   - Dashboard
+  - API & HTTP
+  - Fleet Network and Services
+  - Hub Remote Access
 severity: disrupted
 ---
 *Update* Update continues smoothly.

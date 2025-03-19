@@ -11,4 +11,6 @@ affected:
   - Dashboard
 severity: disrupted
 ---
+*Update* Update continues smoothly.
+
 Some interruption is expected as we release an update to Dashboard, Hubs and update backend software.

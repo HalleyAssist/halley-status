@@ -66,7 +66,9 @@ collections:
         widget: "list"
         summary: "{{fields.individualaffected}}"
         field:
-        - { label: "Affected System", name: "individualaffected", widget: "string" }
+          label: "Affected System"
+          name: "individualaffected"
+          widget: "string"
         required: false
       - label: "Severity ⚠"
         name: "severity"

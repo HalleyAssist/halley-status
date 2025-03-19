@@ -61,14 +61,16 @@ collections:
       - {label: "Mark as informational ℹ", name: "informational", widget: "boolean", required: false, default: false}
       - {label: "Pin to top of page", name: "pin", widget: "boolean", required: false, default: false}
       - {label: "End date & time (your time) ⌛", name: "resolvedWhen", widget: "datetime", required: false}
-      - label: "Affected systems (use exact name, separated by commas) 🧐"
+      - label: "Affected systems 🧐"
         name: "affected"
-        widget: "list"
         summary: "{{fields.individualaffected}}"
-        field:
-          label: "Affected System"
-          name: "individualaffected"
-          widget: "string"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Dashboard", value: "Dashboard" }
+          - { label: "API & HTTP", value: "API & HTTP" }
+          - { label: "Hub Remote Access", value: "Hub Remote Access" }
+          - { label: "Fleet Network and Services", value: "Fleet Network and Services" }
         required: false
       - label: "Severity ⚠"
         name: "severity"

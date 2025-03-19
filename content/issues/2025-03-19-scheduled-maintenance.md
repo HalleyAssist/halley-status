@@ -14,6 +14,8 @@ affected:
   - Hub Remote Access
 severity: disrupted
 ---
+*Update* Currently performing final review of updated components before closing the maintenance window.
+
 *Update* Update continues smoothly.
 
 Some interruption is expected as we release an update to Dashboard, Hubs and update backend software.

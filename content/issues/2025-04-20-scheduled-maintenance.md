@@ -2,7 +2,7 @@
 section: issue
 title: Scheduled Maintenance
 date: 2025-04-21T00:30:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false

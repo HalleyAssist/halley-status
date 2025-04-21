@@ -13,6 +13,8 @@ affected:
   - Hub Remote Access
 severity: disrupted
 ---
+*Update* Update is proceeding a little slower than expected. We expect the update to be completed shortly.
+
 Some interruption is expected as we release an update to Dashboard, Hubs and update backend software.
 
 Expected interruption is 1 hour.

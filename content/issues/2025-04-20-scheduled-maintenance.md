@@ -6,7 +6,7 @@ resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-04-21T13:37:00.000Z
+resolvedWhen: 2025-04-21T11:37:00.000Z
 affected:
   - API & HTTP
   - Dashboard
